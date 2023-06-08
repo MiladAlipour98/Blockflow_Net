@@ -1,3 +1,46 @@
+# Project Name: Alephium Blockchain Analysis
+
+## Project Description
+This project focuses on analyzing the Alephium cryptocurrency, which operates on the BlockFlow blockchain. In this blockchain network, users initiate transactions that need to be confirmed by miners for successful completion. This README file provides an overview of the project and its objectives.
+
+## Objective
+The main objectives of this project are:
+1. Determine the maximum distance between two miners in the blockchain network.
+2. Find the path between two arbitrary miners (a and b) based on a prioritized selection of the next miner using a depth-first search algorithm.
+
+## Dataset
+The project utilizes a file called `blockflow.txt`, which represents the edges between miners in a specific time snapshot of the blockchain network. This dataset provides the necessary information to analyze the network structure and perform the required computations.
+
+## Assumptions
+1. Each transaction in the network requires confirmation from miners, with a required confirmation rate of one-tenth of a percent.
+2. Confirmations must occur consecutively, meaning that the first miner starts the confirmation process, and the result is passed on to subsequent miners until the process is complete.
+3. The cryptocurrency in this time snapshot has the capability to confirm multiple transactions simultaneously.
+
+## Tasks
+The project involves the following tasks:
+
+### Task A: Determining the Maximum Distance
+The first task is to calculate the maximum distance between two miners in the blockchain network. This will provide insights into the overall network topology and the potential reach of transactions.
+
+### Task B: Finding the Path between Miners
+To determine the path between two arbitrary miners (a and b), a depth-first search algorithm is employed. At each step of the path, the selection of the next miner is based on the miner with the most common neighbors with the previous miner. This prioritized approach ensures efficient transaction confirmation within the network.
+
+## Getting Started
+To run the project and perform the required analysis, follow these steps:
+
+1. Ensure you have the necessary dependencies installed (Python, relevant libraries, etc.).
+2. Download the `blockflow.txt` file and place it in the designated directory.
+3. Execute the provided Python scripts for each task to obtain the desired results.
+
+## Results
+Upon running the project, the following information will be generated:
+
+1. Task A: The maximum distance between two miners in the blockchain network.
+2. Task B: The path between two arbitrary miners (a and b) based on the prioritized selection of the next miner using a depth-first search algorithm.
+
+## Conclusion
+This project provides insights into the Alephium cryptocurrency operating on the BlockFlow blockchain. By analyzing the network structure and determining the maximum distance and transaction paths between miners, we gain a deeper understanding of the system's efficiency and connectivity.
+
 # Blockflow_Net
 Cryptocurrency Network Analysis on BlockFlow Blockchain
 Analyzing Alephium cryptocurrency network dynamics using graph theory and complex network analysis for insights into transaction confirmation, network metrics, structure, and visualization.
