@@ -54,7 +54,7 @@ Upon running the project, the following information will be generated:
 2. Task C: The path between two arbitrary miners (a and b) based on the prioritized selection of the next miner using a depth-first search algorithm.
 
 ## Conclusion
-This project provides a comprehensive analysis of the Alephium cryptocurrency operating on the BlockFlow blockchain. By analyzing the network structure, determining the maximum distance between miners, finding transaction paths, and investigating the ability to handle multiple transactions simultaneously, we gain a deeper understanding of the network's efficiency, scalability, and transaction processing capabilities. These insights can contribute to further optimization and development of the blockchain
+This project provides a comprehensive analysis of the Alephium cryptocurrency operating on the BlockFlow blockchain. By analyzing the network structure, determining the maximum distance between miners, finding transaction paths, and investigating the ability to handle multiple transactions simultaneously, we gain a deeper understanding of the network's efficiency, scalability, and transaction processing capabilities. These insights can contribute to further optimization and development of the blockchain network.
 
 # Blockflow_Net
 Cryptocurrency Network Analysis on BlockFlow Blockchain
