@@ -1,7 +1,12 @@
 # Project Name: Alephium Blockchain Analysis
 
 ## Project Description
-This project focuses on analyzing the Alephium cryptocurrency, which operates on the BlockFlow blockchain. In this blockchain network, users initiate transactions that need to be confirmed by miners for successful completion. This README file provides an overview of the project and its objectives.
+This project focuses on analyzing the Alephium cryptocurrency, which operates on the BlockFlow blockchain. In this blockchain network, users initiate transactions that need to be confirmed by miners for successful completion. 
+Based on the assumptions of the problem, the cryptocurrency in this specific time snapshot has the ability to confirm multiple transactions simultaneously. This means that miners can work on confirming multiple transactions concurrently, allowing for greater efficiency in processing transactions within the network.
+
+By leveraging this ability, the cryptocurrency can handle a higher transaction volume, leading to improved scalability and faster transaction confirmations. It enables miners to work on multiple transactions in parallel, enhancing the overall throughput of the system.
+
+Please note that this assumption considers the specific time snapshot provided and may not necessarily apply to all instances of the Alephium cryptocurrency on the BlockFlow blockchain.This README file provides an overview of the project and its objectives.
 
 ## Objective
 The main objectives of this project are:
@@ -19,10 +24,20 @@ The project utilizes a file called `blockflow.txt`, which represents the edges b
 ## Tasks
 The project involves the following tasks:
 
-### Task A: Determining the Maximum Distance
+### Task A: Analyzing the Ability to Confirm Multiple Transactions Simultaneously
+
+As an additional task, we will analyze the ability of the cryptocurrency in this time snapshot to confirm multiple transactions simultaneously. This characteristic plays a crucial role in the scalability and efficiency of the network.
+
+To accomplish this task, we will:
+
+1. Investigate the mechanism by which miners handle and confirm transactions.
+2. Determine whether miners have the capability to process and confirm multiple transactions at the same time.
+3. Assess the impact of simultaneous transaction confirmations on the overall performance and throughput of the blockchain network.
+
+### Task B: Determining the Maximum Distance
 The first task is to calculate the maximum distance between two miners in the blockchain network. This will provide insights into the overall network topology and the potential reach of transactions.
 
-### Task B: Finding the Path between Miners
+### Task C: Finding the Path between Miners
 To determine the path between two arbitrary miners (a and b), a depth-first search algorithm is employed. At each step of the path, the selection of the next miner is based on the miner with the most common neighbors with the previous miner. This prioritized approach ensures efficient transaction confirmation within the network.
 
 ## Getting Started
@@ -34,12 +49,12 @@ To run the project and perform the required analysis, follow these steps:
 
 ## Results
 Upon running the project, the following information will be generated:
-
-1. Task A: The maximum distance between two miners in the blockchain network.
-2. Task B: The path between two arbitrary miners (a and b) based on the prioritized selection of the next miner using a depth-first search algorithm.
+1. Task A: Insights into the cryptocurrency's ability to confirm multiple transactions simultaneously in the given time snapshot.
+1. Task B: The maximum distance between two miners in the blockchain network.
+2. Task C: The path between two arbitrary miners (a and b) based on the prioritized selection of the next miner using a depth-first search algorithm.
 
 ## Conclusion
-This project provides insights into the Alephium cryptocurrency operating on the BlockFlow blockchain. By analyzing the network structure and determining the maximum distance and transaction paths between miners, we gain a deeper understanding of the system's efficiency and connectivity.
+This project provides a comprehensive analysis of the Alephium cryptocurrency operating on the BlockFlow blockchain. By analyzing the network structure, determining the maximum distance between miners, finding transaction paths, and investigating the ability to handle multiple transactions simultaneously, we gain a deeper understanding of the network's efficiency, scalability, and transaction processing capabilities. These insights can contribute to further optimization and development of the blockchain
 
 # Blockflow_Net
 Cryptocurrency Network Analysis on BlockFlow Blockchain
